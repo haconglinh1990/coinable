@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['cdn.myanimelist.net']
+  },
+  compiler: {
+    styledComponents: true
+  }
 }
 
 module.exports = nextConfig
